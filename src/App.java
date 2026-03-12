@@ -1,4 +1,4 @@
-import com.afuyan.www.GUIHRDeom.Ui;
+import com.afuyan.www.www.GUIHRDeom.LoginUI;
 
 import javax.swing.*;
 
@@ -10,8 +10,12 @@ public class App {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Ui loginFrame = new Ui();
+                LoginUI loginFrame = new LoginUI();
                 loginFrame.setVisible(true);
+
+//                EmployeeManagerUI employeeManagerUI = new EmployeeManagerUI();
+//                employeeManagerUI.setVisible(true);
+
             }
         });
     }
